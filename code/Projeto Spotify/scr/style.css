@@ -12,16 +12,16 @@ body{
 }
 
 .sidebar__navigation {
-background-color: #121212;
-border-radius: 8px;
-padding: 16px 0 0 16px;
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
 }
 
 .sidebar__navigation .logo {
     background: #121212;
     display: flex;
     border-radius: 8px;
-    padding: 16px 0 0 16px;
+    padding: 16px 10 0 16px;
 }
 
 .logo img {
@@ -30,8 +30,9 @@ padding: 16px 0 0 16px;
 }
 
 .sidebar nav ul {
-    margin-top: 20px;
-    padding: 0 20px 10px 20px;
+    margin-top: 30px;
+    margin-left: -95px;
+    padding: 10px 20px 10px 20px;
 }
 
 .sidebar ul li {
@@ -44,4 +45,38 @@ padding: 16px 0 0 16px;
     font-weight: 600;
     font-size: 14px;
     font-family: "DM Sans" sans-serif;
+    margin: 0 0 0 0;
+}
+
+.sidebar__biblio {
+    position: fixed;
+    top:  150px;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+    
+}
+
+.sidebar__navigation__biblio {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 0px 0 0 16px;
+}
+
+.sidebar__biblio nav ul {
+    padding: 10 20px 10px 20px;
+}
+
+.sidebar__biblio ul li {
+    padding: 10px 0;
+}
+
+.sidebar__biblio nav ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans" sans-serif;
+    margin: 0 0 0 0;
 }
